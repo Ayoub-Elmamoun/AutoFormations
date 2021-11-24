@@ -9,5 +9,5 @@ if (y=5) {
     
 }
 else {
-    alert("that right its 5")
+    alert("that right !!")
 }
