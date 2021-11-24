@@ -1,4 +1,5 @@
 
          var x = "hello";
          var y = "world";
-         console.log(x+y);
+         var z = x+y;
+         alert(z);
