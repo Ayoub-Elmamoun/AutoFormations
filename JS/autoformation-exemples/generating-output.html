@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+<p id="sum1"></p>
+<p id="sum2"></p>
     <script>
 
 // OUTPUT IN CONSOLE 
@@ -19,8 +21,44 @@
     var y=5;
     var z=x+y;
     console.log(z);
-    
-    </script>
+
+// OUPUT USING ALERT
+        
+        //SHOW A SIMPLE TEXT 
+        alert("this is a simple test")
+
+        //PRINT THE ADDITION OF TWO NUM
+            var x=3;
+            var y=5;
+            var z=x+y;
+            alert(z);
+
+// OUTPUT IN BROWSER WINDOW
+
+     //SHOW A SIMPLE TEXT 
+        document.write("this is a simple test")
+
+    //PRINT THE ADDITION OF TWO NUM
+        var x=3;
+        var y=5;
+        var add=x+y;
+        document.write(add);
+
+// OUPUT FROM HTML   
+        
+    // SUM 1 RESULT
+    var x=10;
+    var y=20;
+    var sum1=x+y;
+    document.getElementById("sum1").innerHTML(sum1)
+
+    // SUM 2 RESULT
+    var x=5;
+    var y=10;
+    var sum2=x+y;
+    document.getElementById("sum1").innerHTML(sum2)
+
+</script>
 </body>
 </html>
 
